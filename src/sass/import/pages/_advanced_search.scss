@@ -1,0 +1,28 @@
+/* Page Advanced Search
+------------------------------------
+*/
+.advancedSearch {
+  .content-advancedSearch {
+    .nav-tabs li.active a,
+    .tab-pane {
+      background-color: #f5f5f5
+    }
+
+    .bloc-rmc {
+      margin: 0px 0px 10px 0px;
+      padding: 8px;
+      box-shadow: 0px 0px 5px rgba(2, 2, 2, 0.2);
+      background: #fff;
+      border-radius: 5px;
+    }
+  }
+  .multiline {
+    padding-top: 0 !important;
+  }
+  .tooltip-inner {
+    width: 200px !important;
+    text-align: left;
+    line-height: 20px;
+  }
+
+}

@@ -1,0 +1,11 @@
+/* Page Panel Siege
+------------------------------------
+*/
+
+.panelSiege{
+  blockquote footer:before,
+  blockquote small:before,
+  blockquote .small:before {
+    content: '' !important;
+  }
+}

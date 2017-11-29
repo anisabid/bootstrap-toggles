@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-toggles",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.7.0",
+    "bootstrap-sass": "^3.3.7",
+    "sass-material-colors": "^0.0.5",
+    "bootstrap": "^3.3.7"
+  }
+}

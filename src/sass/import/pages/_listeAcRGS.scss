@@ -1,0 +1,61 @@
+/* Page Liste Autorités de certification
+------------------------------------
+*/
+
+.listeAc {
+  .tableAc {
+    .panel-group {
+      .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+        > .panel-heading {
+          border-radius: 0;
+          background-color: #FAFAFA;
+          border-color: #EEEEEE;
+          .panel-title {
+            font-size: 14px;
+            > a {
+              transition: all .2s ease;
+              &:not(.collapsed) .more-less:before {
+                content: "\2212";
+              }
+              .more-less {
+                float: right;
+                color: #212121;
+                font-size: 19px;
+                line-height: 12px;
+              }
+              .t-icon {
+                padding: 0 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .detail-fichier {
+
+      .listDetails {
+        background: #fafafa;
+        border: solid 1px #e6e5e5;
+      }
+    }
+
+    .informationUrl {
+      z-index: 3;
+    }
+
+    .racineInfo {
+      display: block;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+      cursor: pointer;
+      top: 0;
+      text-align: right;
+      padding: 11px;
+      right: 0;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+/* Page Condition Utilisation
+------------------------------------
+*/
+.conditionUtilisation {
+  .list-group-item {
+    border-radius: 0;
+    padding: 0;
+    border-bottom: none;
+    border-left: none;
+    min-height: 70px;
+    > a {
+      text-decoration: none;
+    }
+    &:first-of-type {
+      border-top: none;
+    }
+  }
+  .tri-table .list-group-item.active > a {
+    color: #fff;
+  }
+
+  .nav-condition {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+
+    .tab-content{
+      line-height: 21px;
+    }
+  }
+}

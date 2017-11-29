@@ -1,0 +1,18 @@
+/* Page Configuration Poste
+------------------------------------
+*/
+
+.configuration-poste {
+  .main-part {
+    .diagnostic-liste {
+      li {
+        padding: 6px 0;
+        list-style: none;
+          span {
+            font-size: 12px;
+            padding-right: 2px;
+          }
+      }
+    }
+  }
+}

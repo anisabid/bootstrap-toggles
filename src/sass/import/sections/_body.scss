@@ -1,0 +1,21 @@
+/* [1.3] Page Body
+------------------------------------
+*/
+
+// Variable
+// --------------------------------------------------
+
+// Making
+// --------------------------------------------------
+
+.main-wrapper {
+  form[name="main_form"] {
+    min-height: initial;
+    height: initial;
+  }
+  .atx-middle {
+    min-height: inherit;
+    height: auto;
+    margin: 0 auto -24px;
+  }
+}

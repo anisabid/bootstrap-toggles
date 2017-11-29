@@ -1,0 +1,39 @@
+//
+// Forms
+// --------------------------------------------------
+
+// Variable
+// --------------------------------------------------
+
+$ktv-modules-forms-color: $ktv-color-master;
+$ktv-modules-forms-input-background-color--focused: rgba($input-bg, .9);
+
+// Mixin
+// --------------------------------------------------
+@mixin generate-form-control-width($total_repeat, $parent:false, $step:50) {
+  @if $total_repeat > 0 {
+
+    @for $i from 0 through $total_repeat {
+      $iclass: $step * $i;
+
+      @if ($parent) {
+        &.w-#{$iclass} {
+          width: #{$iclass}px;
+        }
+      } @else {
+        .w-#{$iclass} {
+          width: #{$iclass}px;
+        }
+      }
+
+    }
+  }
+}
+
+// Making
+// --------------------------------------------------
+
+.form-control,
+.form-inline .form-control {
+  @include generate-form-control-width(20, true);
+}

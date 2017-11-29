@@ -1,0 +1,54 @@
+// Typography
+/* Misc
+------------------------------------
+*/
+.hint-text,
+.help {
+  opacity: .6;
+}
+
+.no-decoration {
+  text-decoration: none !important;
+}
+
+// Text Weight
+//------------------------------------
+.text-thin {
+  font-weight: $ktv-font-weight-thin !important;
+}
+
+.text-light {
+  font-weight: $ktv-font-weight-light !important;
+}
+
+.text-regular {
+  font-weight: $ktv-font-weight-regular !important;
+}
+
+.text-medium {
+  font-weight: $ktv-font-weight-medium !important;
+}
+
+.text-bold {
+  font-weight: $ktv-font-weight-bold !important;
+}
+
+.text-black {
+  font-weight: $ktv-font-weight-black !important;
+}
+
+
+/* Lins and Others
+------------------------------------
+*/
+a {
+  text-shadow: none !important;
+  @include transition($ktv-link-transition);
+  &.active {
+    color: $link-hover-color;
+  }
+
+  &[disabled=disabled]{
+    color: material-color('grey', '400');;
+  }
+}

@@ -1,0 +1,22 @@
+/* Page Vérifier Signature
+------------------------------------
+*/
+
+.verifier-signature {
+  .file-upload-v {
+    border: #c3c3c3 1px dashed;
+    border-radius: 5px;
+    padding: 15px 10px;
+    .border-right {
+      border-right: #c3c3c3 1px dashed;
+    }
+  }
+  .tableau-verif-signature {
+    width: 100%;
+  }
+  .file-upload-v {
+    input[type="file"] {
+      width: 270px;
+    }
+  }
+}

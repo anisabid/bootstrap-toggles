@@ -1,0 +1,26 @@
+/* Page Sign Document
+------------------------------------
+*/
+.sign-document .liste-actions {
+  padding: 0;
+}
+
+.sign-document .breadcrumbs .v-divider {
+  margin-top: 5px;
+}
+
+.sign-document {
+  .main-part {
+    .sign-document-list {
+      padding-bottom: 25px;
+      li {
+        padding: 6px 0;
+        list-style: none;
+        span {
+          font-size: 12px;
+          padding-right: 2px;
+        }
+      }
+    }
+  }
+}

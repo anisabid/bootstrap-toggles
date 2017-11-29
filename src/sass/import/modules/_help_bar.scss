@@ -1,0 +1,67 @@
+//
+// Help Bar
+// --------------------------------------------------
+
+// Variable
+// --------------------------------------------------
+$ktv-modules-help-bar-zIndex: $ktv-zIndex-10 !default;
+$ktv-modules-help-bar-position-top: $ktv-base-unit * 38 !default;
+
+// Making
+// --------------------------------------------------
+
+/*Menu Assistance*/
+.help-bar {
+  position: fixed;
+  z-index: $ktv-modules-help-bar-zIndex;
+  top: $ktv-modules-help-bar-position-top;
+  right: 0;
+
+  ul {
+    @include list-unstyled;
+
+    li {
+      position: relative;
+      height: $ktv-base-unit * 5;
+      line-height: $ktv-base-unit * 5;
+      margin-bottom: $ktv-base-unit;
+      text-align: right;
+
+      a {
+        padding-left: $ktv-base-unit * 5;
+        @include border-left-radius(5px);
+        background-color: $brand-primary;
+        color: #fff;
+        text-decoration: none;
+        line-height: $ktv-base-unit * 5;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        min-width: $ktv-base-unit * 5;
+        height: $ktv-base-unit * 5;
+
+        padding-left: $ktv-base-unit * 5;
+
+        .text {
+          padding-right: $ktv-base-unit;
+          display: none;
+        }
+
+        &.faq {
+          background-image: url(../images/icon-faq.png);
+        }
+        &.hotline,
+        &.assistance {
+          background-image: url(../images/icon-hotline.png);
+        }
+
+        &:hover {
+          .text {
+            display: block;
+          }
+
+        }
+      }
+    }
+  }
+}

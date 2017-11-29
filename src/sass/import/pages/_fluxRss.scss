@@ -1,0 +1,38 @@
+/* Page FluxRSS
+------------------------------------
+*/
+
+.fluxRss {
+  .main-part {
+    .liste-flux-rss {
+      padding-bottom: 25px;
+      ul {
+        padding: 0;
+      }
+      .rss {
+        padding: 6px 0;
+        list-style: none;
+
+        &.disabled{
+          color: material-color('grey', '400');
+
+          .fa-rss-square {
+            color: material-color('grey', '700');
+          }
+          a {
+            cursor: not-allowed;
+          }
+        }
+
+        .fa-rss-square {
+          font-size: 12px;
+          padding-right: 5px;
+          color: #0054b3;
+        }
+          a {
+            cursor: pointer;
+          }
+      }
+    }
+  }
+}

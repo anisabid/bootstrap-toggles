@@ -1,0 +1,28 @@
+/* Page All Consulatations
+------------------------------------
+*/
+
+.AllCons{
+  .toggle-panel{
+    .panel-heading{
+      .panel-title{
+        a {
+          display: block;
+        }
+      }
+    }
+    .panel-body{
+        li > p >i {
+          color: #0c5c80;
+        }
+
+      .fa-social{
+        color: #ed4949;
+      }
+
+      .fa-environnemental{
+        color: #058a05;
+      }
+    }
+  }
+}

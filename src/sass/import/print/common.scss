@@ -1,0 +1,35 @@
+/* CSS Document Print */
+body {
+  background-image: none;
+}
+
+#header, #left-part, #footer {
+  display: none;
+}
+
+#middle {
+  border: 0;
+  overflow: visible !important;
+  float: none !important;
+  margin: 0px !important
+}
+
+#middle .main-part {
+  border: 0;
+  padding: 0px;
+  margin: 0px !important;
+  overflow: visible !important;
+  float: none !important
+}
+
+#middle .main-part div {
+  overflow: visible !important;
+}
+
+.overlay {
+  background-image: none
+}
+
+.top {
+  page-break-after: avoid !important;
+}

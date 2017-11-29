@@ -1,0 +1,59 @@
+//
+// Help Bar
+// --------------------------------------------------
+
+// Variable
+// --------------------------------------------------
+
+// Making
+// --------------------------------------------------
+.info_panelLots {
+  background-color: #faf9f9;
+}
+.item_depot {
+  .date {
+    display: block;
+    //width: $ktv-base-unit * 12;
+    margin-top: $ktv-base-unit;
+    //background-color: material-color('grey', '200');
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid material-color('grey', '200');
+    border-radius: $border-radius-small;
+
+    .day {
+      font-size: 20px;
+      font-weight: $ktv-font-weight-bold;
+      padding: $ktv-base-unit / 2;
+      background-color: material-color('grey', '100');
+      height: $ktv-base-unit * 5;
+      //width: 100%;
+    }
+
+    .month-year {
+      //width: 100%;
+    }
+    .month {
+      font-size: 11px;
+      padding: $ktv-base-unit / 4;
+      //background-color: material-color('brown', '100');
+      height: $ktv-base-unit * 3;
+      line-height: $ktv-base-unit * 3;
+      width: 50%;
+      float: left;
+    }
+    .year {
+      font-size: 11px;
+      padding: $ktv-base-unit / 4;
+      height: $ktv-base-unit * 3;
+      line-height: $ktv-base-unit * 3;
+      width: 50%;
+      float: left;
+
+    }
+  }
+
+  .time {
+    display: block;
+  }
+}

@@ -1,0 +1,40 @@
+/* [W.] Notify
+------------------------------------
+*/
+
+// Variable
+// --------------------------------------------------
+$ktv-widget-notify-size: $ktv-base-unit * 4;
+
+// Mixin
+// --------------------------------------------------
+[data-notify="container"].alert {
+
+  &.animated.fadeInDown {
+    @include fadeInDown();
+  }
+  &.animated.fadeOutUp {
+    @include fadeOutUp();
+  }
+
+  &.animated.fadeInRight {
+    @include fadeInRight();
+  }
+  &.animated.fadeOutRight {
+    @include fadeOutRight();
+  }
+
+  &.animated.bounceInDown {
+    @include bounceInDown();
+  }
+  &.animated.bounceOutUp {
+    @include bounceOutUp();
+  }
+
+  &.animated.bounceInUp {
+    @include bounceInUp();
+  }
+  &.animated.bounceOutDown {
+    @include bounceOutDown();
+  }
+}

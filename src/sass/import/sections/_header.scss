@@ -1,0 +1,38 @@
+/* [1.2] Header
+------------------------------------
+*/
+
+// Variable
+// --------------------------------------------------
+
+// Mixin
+// --------------------------------------------------
+
+// Making
+// --------------------------------------------------
+
+.header {
+  .navbar-section {
+    background: transparent;
+    position: relative;
+    .header-top {
+      padding: ($ktv-base-unit * 1.5) 0px;
+
+      .header-img {
+        height: 44px;
+      }
+      .header-right {
+        margin-right: $ktv-base-unit * 2;
+        .header-img {
+          margin-top: 10px;
+          height: 24px;
+        }
+      }
+
+    }
+  }
+  .navbar {
+    margin: 0;
+  }
+
+}

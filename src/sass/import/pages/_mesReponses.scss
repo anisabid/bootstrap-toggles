@@ -1,0 +1,23 @@
+/* Page Mes Réponses
+------------------------------------
+*/
+
+.mesReponses {
+  .ongletLayer {
+
+    .table-striped {
+      cursor: pointer;
+
+      .list-group-item a {
+        color: #0078ff;
+      }
+    }
+
+    .line-partitioner {
+      .liens a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+

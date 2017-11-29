@@ -1,0 +1,142 @@
+/* Page Login
+------------------------------------
+*/
+.tab-identification {
+
+  .btn-validate {
+    width: 100%;
+  }
+  .tab-content {
+    margin: 0 auto;
+
+    .nav-pills > li {
+      text-align: center;
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+
+      a {
+        border: 1px solid #0078ff;
+        border-radius: 0;
+        padding: 2*$ktv-base-unit;
+      }
+      a:hover {
+        background-color: #0060cc;
+        color: #fff;
+      }
+    }
+
+    .connexion {
+
+      .form-bloc {
+        .form-control {
+          margin-bottom: $ktv-base-unit;
+        }
+
+        .form-confirm {
+          .forgot-pwd {
+            float: left;
+          }
+        }
+      }
+
+      .connexion-franceConnect {
+        .login-info {
+          margin: 24px;
+        }
+
+        .header-tab h4 {
+          margin-bottom: 2px;
+        }
+
+        /* séparateur OU */
+        .or {
+          position: relative;
+          line-height: 50px;
+          font-weight: 400;
+        }
+
+        .or::before,
+        .or::after {
+          position: absolute;
+          width: 327px;
+          height: 1px;
+          top: 24px;
+          background-color: rgba(170, 170, 170, 0.2);
+          content: '';
+        }
+        .or::before {
+          left: 0;
+        }
+        .or::after {
+          right: 0;
+        }
+      }
+
+      .bloc-identification {
+        margin-top: -6px;
+      }
+      .text-identifiant {
+        margin-bottom: 24px;
+      }
+
+      .txt-pwd-oublie {
+        padding: 6px 17px;
+      }
+    }
+
+    .inscription {
+
+      padding-bottom: $ktv-base-unit * 3;
+      /* Small devices (tablets, 768px and up) */
+      @media (min-width: $screen-md-min) {
+        padding-bottom: 421px;
+      }
+      .text-entreprise {
+        padding-bottom: 16px;
+      }
+      .siret-siren {
+        display: flex;
+        margin-bottom: 2*$ktv-base-unit;
+
+        .siret {
+          margin-right: $ktv-base-unit;
+        }
+
+      }
+      .example {
+        color: #c0bebe;
+        font-style: italic;
+        margin-top: -6px;
+        margin-bottom: 8px;
+      }
+    }
+
+  }
+  .label-header {
+    margin-bottom: 2px;
+  }
+
+}
+
+.pwd-forgotten {
+  .password {
+    padding: 0 24px 16px 24px;
+    box-shadow: 0 0px 5px 0px rgba(19, 35, 47, 0.3);
+
+    .define-pwd {
+      margin-top: $ktv-base-unit;
+    }
+
+    .back-home {
+      .arrow-back {
+        display: inline;
+        margin-right: $ktv-base-unit;
+      }
+    }
+  }
+}
+
+.list-group-item:last-child {
+  border-radius: 0;
+}

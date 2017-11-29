@@ -1,0 +1,13 @@
+/* Page entreprise.EntrepriseInscriptionUsers
+------------------------------------
+*/
+
+.table-etablissements {
+
+  .row-etablissement {
+    &.animated.flash {
+      @include flash();
+    }
+  }
+
+}
